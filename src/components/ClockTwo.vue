@@ -44,11 +44,9 @@ export default {
     });
 
     return {
-      oatsHrs: hrs,
-      oatsMins: mins,
-      oatsSecs: secs,
-      handHoursStyle,
-      handMinutesStyle,
+      hrs: hrs,
+      mins: mins,
+      secs: secs
     };
   },
 };
